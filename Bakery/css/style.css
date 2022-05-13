@@ -1,7 +1,25 @@
 * {
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
+    color:#686868;
+    font-family: 'Alegreya', serif;
+}
+
+/* ------------- Who we are section --------------- */
+
+
+.icon-color
+{
+    color: #8e7754 ;
+}
+
+
+.w-90
+{
+    width: 90%;
+}
+
+#who-we-are span
+{
+    font-size: 17px;
 }
 
 /* ourLocation */
