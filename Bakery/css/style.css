@@ -1,0 +1,38 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* ourLocation */
+
+.ourLocation {
+    background-color: #f8f8f8;
+
+}
+
+.ourLocation .inner , .inner-txt{
+    width: 93%;
+}
+
+.ourLocation h2 {
+    font-family: Alegreya;
+    font-size: 32px;
+    line-height: 44.16px;
+    margin-bottom: 25px;
+}
+
+.ourLocation p {
+    font-family: "Alegreya Sans";
+    color: #686868;
+    font-size: 17px;
+    line-height: 31.62px;
+    font-weight: 400;
+}
+
+.ourLocation .img-caption img {
+    width: 100%;
+}
+
+
+
