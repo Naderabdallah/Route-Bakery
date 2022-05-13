@@ -35,4 +35,66 @@
 }
 
 
+/* ----------- contact ---------- */
+.location{ 
+    padding-right: 5%;
+}
 
+.location .location-content{
+    width: 42%;
+    margin: 4% 7% 0px 10%;
+}
+
+
+.location .loction-img{
+    width: 37%;
+    margin-right: 4%;
+}
+
+.we-are{
+    padding: 4% 0px;
+}
+
+
+.we-are .content{
+    margin-left: 6%;
+    width: 50%;
+    float: left;
+    padding: 4% 0px;
+}
+
+.we-are .content-info{
+    margin: 0% 7% 0px 10%;
+    padding: 0%;
+}
+
+.we-are .div-img{
+    width: 44%;
+    float: left;
+}
+
+.content h2{
+    color: rgb(61, 61, 61);
+    margin-bottom: 26px;
+    font-size: 28px;
+    font-weight: lighter;
+}
+
+.content p{
+  color: #7a7878;
+  font-family: sans-serif;
+  line-height: 1.5;
+  font-size: 16px;
+  margin-bottom: 20px;
+}
+
+.content table .fa{
+  color: #8e7754; 
+  padding: 10px;
+  width: 20px;
+  height: 20px;
+  text-align: center;
+  font-size: 22px;
+  margin-right: 23px;
+  margin-bottom: 10px;
+}
