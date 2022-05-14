@@ -4,6 +4,26 @@
     box-sizing: border-box;
 }
 
+/* ourBacking */
+.backing-caption h5{
+    font-size: 30px;
+    font-family: "Alegreya Sans";
+    color: #303030;
+}
+
+.backing-caption p{
+    color: #888888;
+    font-size:17px ;
+    margin:17px 0px 0px;
+    font-family: "Alegreya Sans";
+}
+
+.item img{
+    width: 100%;
+}
+
+
+
 /* ourLocation */
 
 .ourLocation {
