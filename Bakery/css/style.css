@@ -102,6 +102,28 @@ body
 }
 /* home-section */
 
+/* ------------- Who we are section --------------- */
+
+#who-we-are
+{
+    color:#686868;
+    font-family: 'Alegreya', serif;
+}
+.icon-color
+{
+    color: #8e7754 ;
+}
+
+
+.w-90
+{
+    width: 90%;
+}
+
+#who-we-are span
+{
+    font-size: 17px;
+}
 
 
 /* ourLocation */
