@@ -3,6 +3,128 @@
     margin: 0;
     box-sizing: border-box;
 }
+body
+{
+    font-family: "Alegreya Sans";
+
+}
+/* home-section */
+.home
+{
+    height: 100vh;
+    background-image: url(../imgs/drew-coffman-1872.jpg);
+    background-position: center center;
+    background-size: 100% 100%;
+}
+.home-cap h1
+{
+    font-size: 75px !important;
+}
+.home-cap p
+{
+    font-size: 22px;
+}
+.btn
+{
+    color: white;
+    border: 2px solid white !important;
+    padding: 15px 28px !important;
+    transition: all 1s;
+}
+.btn:hover
+{
+    background-color: white;
+}
+
+.btn1
+{
+    background-color: #8e7754;
+    border: none !important;
+    margin-right: 5px ;
+}
+.navbar img
+{
+    width: 140px;
+}
+.setting
+{
+    position: fixed;
+    top: 30%;
+    right: 0;
+    background-color: white;
+    height: 86px;
+    width: 42px;
+    border-top-left-radius: 2px;
+    border-bottom-left-radius: 2px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.setting i
+{
+    display: block;
+    transition: all 1s;
+}
+.setting i:hover
+{
+    color: #0275d8;
+}
+.mouse
+{
+    position: absolute;
+    bottom: 5%;
+    left: 50%;
+    width: 32px;
+    height: 50px;
+    border: 1px solid white;
+}
+.mouse::after
+{
+    content: "";
+    background-color: white;
+    position: absolute;
+    height: 10px;
+    width: 10px;
+    border-radius: 50%;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    animation: moving infinite alternate 1s;
+    transition: all 1s;
+
+}
+@keyframes moving {
+    0%{top:10%};
+    20%{top:70%};
+    50%{top:60%};
+    80%{top:50%};
+    100%{top:40%};
+}
+/* home-section */
+
+/* ------------- Who we are section --------------- */
+
+#who-we-are
+{
+    color:#686868;
+    font-family: 'Alegreya', serif;
+}
+.icon-color
+{
+    color: #8e7754 ;
+}
+
+
+.w-90
+{
+    width: 90%;
+}
+
+#who-we-are span
+{
+    font-size: 17px;
+}
+
 
 /* ourBacking */
 .backing-caption h5{
